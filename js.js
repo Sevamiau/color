@@ -16,4 +16,6 @@ function colorFondo() {
     console.log("The new color is:", randomColor);
 }
 
-colorButton.addEventListener('click', colorFondo);
+
+// cambiar 'click'por 'mouseover' o 'mouseenter'
+colorButton.addEventListener('mouseenter', colorFondo);
