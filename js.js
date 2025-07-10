@@ -27,11 +27,11 @@
 
 
 const pageBody = document.body;
-const colorValueSpan = document.getElementById('color-value'); // If you added this feature
+const colorValueSpan = document.getElementById('color-value');
 const colorTriggers = document.querySelectorAll('.color-trigger');
 
 
- const colors = ['#fabfb7', '#fdf9c4', '#ffda9e', '#c5c6c8',
+ const colors = ['#fabfb7', '#fdf9c4', '#ffda9e',
                 '#b2e2f2', '#b0c2f2', '#ffe4e1'];
 
 
